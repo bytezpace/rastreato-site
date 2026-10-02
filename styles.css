@@ -45,13 +45,6 @@ p { margin: 0 0 1em; }
 .btn--ghost { border-color: currentColor; background: transparent; }
 .btn--dark { background: var(--ink); color: #fff; }
 
-/* Demo notice */
-.demo-banner { position: relative; display: flex; align-items: center; justify-content: center; padding: 10px 48px; background: var(--ink); color: #eee; font-size: .88rem; text-align: center; }
-.demo-banner p { margin: 0; }
-.demo-banner b { color: var(--yellow); }
-.demo-banner__close { position: absolute; right: 12px; top: 50%; transform: translateY(-50%); width: 30px; height: 30px; border: 0; border-radius: 50%; background: transparent; color: #eee; font-size: 1.3rem; line-height: 1; cursor: pointer; }
-.demo-banner__close:hover { background: var(--ink-3); }
-
 /* Header */
 .header { position: sticky; top: 0; z-index: 50; background: rgba(255, 255, 255, .85); backdrop-filter: blur(12px); border-bottom: 1px solid transparent; transition: border-color .2s; }
 .header.is-scrolled { border-color: var(--line); }

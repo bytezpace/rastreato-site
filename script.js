@@ -7,11 +7,6 @@ document.querySelectorAll("[data-wa]").forEach((el) => {
   el.rel = "noopener";
 });
 
-// Demo notice
-document.getElementById("demoClose").addEventListener("click", () =>
-  document.getElementById("demoBanner").remove()
-);
-
 // Mobile menu
 const burger = document.getElementById("burger");
 const nav = document.getElementById("nav");
