@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Rastreato | Monitoramento de ativos e rastreamento veicular</title>
+  <meta name="description" content="Rastreamento, monitoramento 24h, alarme digital e videotelemetria para carros, motos e frotas. Unaí - MG." />
+  <meta name="theme-color" content="#0d0d0d" />
+  <link rel="icon" href="assets/imgs/icon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Demo notice -->
+  <div class="demo-banner" id="demoBanner" role="note">
+    <p><b>Site modelo.</b> Esta página é uma demonstração e não é o site oficial da Rastreato.</p>
+    <button class="demo-banner__close" id="demoClose" aria-label="Fechar aviso">&times;</button>
+  </div>
+
+  <!-- Header -->
+  <header class="header" id="top">
+    <div class="container header__inner">
+      <a href="#top" class="brand" aria-label="Rastreato">
+        <img src="assets/imgs/logo-wide.jpeg" alt="Rastreato - monitoramento de ativos" width="107" height="44" />
+      </a>
+      <nav class="nav" id="nav">
+        <a href="#recursos">Recursos</a>
+        <a href="#assistencia">Assistência</a>
+        <a href="#telemetria">Telemetria</a>
+        <a href="#planos">Planos</a>
+        <a href="#faq">Dúvidas</a>
+        <a href="https://ap3.stc.srv.br/webcliente/ads" target="_blank" rel="noopener" class="nav__link-muted">Plataforma</a>
+      </nav>
+      <a class="btn btn--wa btn--sm header__cta" data-wa="Olá! Quero contratar o rastreamento da Rastreato." href="#">
+        <svg class="ico"><use href="#i-wa" /></svg> Contratar
+      </a>
+      <button class="burger" id="burger" aria-label="Abrir menu" aria-expanded="false"><span></span><span></span></button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero__grid">
+        <div class="hero__text reveal">
+          <span class="pill"><span class="dot"></span> Monitoramento ativo 24h</span>
+          <h1>Dirija com <span class="hl">tranquilidade</span>. Seu veículo sempre rastreado.</h1>
+          <p class="lead">Rastreamento, alarme digital e videotelemetria para carros, motos, caminhões e frotas. Tecnologia e segurança em movimento.</p>
+          <div class="hero__actions">
+            <a class="btn btn--wa" data-wa="Olá! Gostaria de uma cotação de rastreamento." href="#">
+              <svg class="ico"><use href="#i-wa" /></svg> Pedir cotação no WhatsApp
+            </a>
+            <a class="btn btn--ghost" href="#planos">Ver planos</a>
+          </div>
+          <ul class="hero__stats">
+            <li><b>24h</b><span>Central de atendimento</span></li>
+            <li><b>Brasil</b><span>Cobertura nacional</span></li>
+            <li><b>App</b><span>Android e iOS</span></li>
+          </ul>
+        </div>
+        <div class="hero__media reveal">
+          <div class="stack">
+            <video class="stack__v stack__v--1 lazy-video" data-src="https://adsrastreamento.com.br/1.mov" muted loop playsinline preload="none"></video>
+            <video class="stack__v stack__v--2 lazy-video" data-src="https://adsrastreamento.com.br/2.mov" muted loop playsinline preload="none"></video>
+            <video class="stack__v stack__v--3 lazy-video" data-src="https://adsrastreamento.com.br/3.mov" muted loop playsinline preload="none"></video>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- How it works -->
+    <section class="section">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="eyebrow">Como funciona</span>
+          <h2>Solução completa para carro, moto e frota</h2>
+        </div>
+        <div class="steps">
+          <article class="step reveal">
+            <span class="step__n">01</span>
+            <h3>Rastreador GPS</h3>
+            <p>Dispositivo instalado em ponto estratégico do veículo, de forma rápida e discreta.</p>
+          </article>
+          <article class="step reveal">
+            <span class="step__n">02</span>
+            <h3>Central 24h</h3>
+            <p>As coordenadas vão para nossa central, que faz monitoramento ativo e preventivo.</p>
+          </article>
+          <article class="step reveal">
+            <span class="step__n">03</span>
+            <h3>Alarme digital</h3>
+            <p>Você recebe um aviso no app assim que o veículo se move sem autorização.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features -->
+    <section class="section section--alt" id="recursos">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="eyebrow">Recursos</span>
+          <h2>Controle total na palma da mão</h2>
+          <p>Acesso pelo app e pela web, a qualquer hora.</p>
+        </div>
+        <div class="features">
+          <article class="feature reveal"><svg class="ico"><use href="#i-key" /></svg><h3>Alerta de ignição</h3><p>Aviso no app sempre que o veículo for ligado.</p></article>
+          <article class="feature reveal"><svg class="ico"><use href="#i-lock" /></svg><h3>Bloqueio imediato</h3><p>Em caso de roubo, bloqueie o veículo pelo celular.</p></article>
+          <article class="feature reveal"><svg class="ico"><use href="#i-fence" /></svg><h3>Cerca eletrônica</h3><p>Defina áreas e seja avisado quando forem ultrapassadas.</p></article>
+          <article class="feature reveal"><svg class="ico"><use href="#i-route" /></svg><h3>Trajetos e histórico</h3><p>Rotas definidas por você e todo o percurso registrado.</p></article>
+          <article class="feature reveal"><svg class="ico"><use href="#i-fuel" /></svg><h3>Combustível</h3><p>Saiba quanto tem no tanque e quanto já gastou.</p></article>
+          <article class="feature reveal"><svg class="ico"><use href="#i-shield" /></svg><h3>Anti jammer</h3><p>Proteção contra bloqueadores de sinal.</p></article>
+          <article class="feature reveal"><svg class="ico"><use href="#i-temp" /></svg><h3>Temperatura</h3><p>Controle em tempo real de veículos refrigerados.</p></article>
+          <article class="feature reveal"><svg class="ico"><use href="#i-chart" /></svg><h3>Relatórios e frotas</h3><p>Relatórios diários para reduzir custos da frota.</p></article>
+        </div>
+        <div class="app reveal">
+          <div>
+            <h3>Aplicativo exclusivo</h3>
+            <p>Alarme digital, localização, pedido de assistência e muito mais.</p>
+          </div>
+          <div class="app__links">
+            <a class="btn btn--ghost btn--sm" href="https://play.google.com/store/apps/details?id=br.com.stctecnologia.movit" target="_blank" rel="noopener">Google Play</a>
+            <a class="btn btn--ghost btn--sm" href="https://apps.apple.com/br/app/movit/id1202264750" target="_blank" rel="noopener">App Store</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Assistance -->
+    <section class="section" id="assistencia">
+      <div class="container split">
+        <div class="reveal">
+          <span class="eyebrow">Assistência 24h</span>
+          <h2>Ficou na estrada? A ajuda está a um WhatsApp de distância.</h2>
+          <p class="lead">Guincho, mecânico e mais, a qualquer hora do dia. Siga seu caminho com tranquilidade.</p>
+          <a class="btn btn--wa" data-wa="Olá! Preciso de assistência 24h." href="#">
+            <svg class="ico"><use href="#i-wa" /></svg> Chamar assistência
+          </a>
+        </div>
+        <ul class="chips reveal">
+          <li><b>Guincho</b><span>Remoção até a oficina</span></li>
+          <li><b>Pane mecânica</b><span>Mecânico até você</span></li>
+          <li><b>Pane elétrica</b><span>Carga extra na bateria</span></li>
+          <li><b>Pane seca</b><span>Socorro até o posto</span></li>
+          <li><b>Troca de pneu</b><span>Sem sujar as mãos</span></li>
+          <li><b>Chaveiro</b><span>Chave perdida ou trancada</span></li>
+          <li><b>Táxi</b><span>Volta para casa garantida</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Telemetry -->
+    <section class="section section--dark" id="telemetria">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="eyebrow">Videotelemetria com IA</span>
+          <h2>Duas câmeras. Mais segurança e economia para a frota.</h2>
+          <p>Visão da via e da cabine. A IA registra frenagens e curvas bruscas, distração ao volante e proximidade do veículo à frente.</p>
+        </div>
+        <div class="cams">
+          <figure class="cam reveal">
+            <video class="lazy-video" data-src="https://adsrastreamento.com.br/distracted_driving.mp4" muted loop playsinline preload="none"></video>
+            <figcaption>Câmera interna</figcaption>
+          </figure>
+          <figure class="cam reveal">
+            <video class="lazy-video" data-src="https://adsrastreamento.com.br/outsidecam.mp4" muted loop playsinline preload="none"></video>
+            <figcaption>Câmera externa</figcaption>
+          </figure>
+        </div>
+        <ul class="stats reveal">
+          <li><b data-count="70">0</b><span>mais uso do cinto de segurança</span></li>
+          <li><b data-count="60">0</b><span>menos colisões</span></li>
+          <li><b data-count="65">0</b><span>menos excesso de velocidade</span></li>
+          <li><b data-count="80">0</b><span>menos distrações ao volante</span></li>
+        </ul>
+        <div class="yt reveal">
+          <button class="yt__poster" id="ytPoster" aria-label="Assistir vídeo">
+            <img src="https://i.ytimg.com/vi/qdp-PBbxga0/hqdefault.jpg" alt="" loading="lazy" />
+            <span class="yt__play"><svg class="ico"><use href="#i-play" /></svg></span>
+          </button>
+        </div>
+        <div class="driver reveal">
+          <div>
+            <h3>Identificador de motoristas</h3>
+            <p>Leitor RFID no painel identifica quem está dirigindo. Mais controle de multas, jornada e ranking de condução.</p>
+          </div>
+          <a class="btn btn--primary" data-wa="Olá! Quero saber mais sobre videotelemetria e identificador de motoristas." href="#">Falar com especialista</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Plans -->
+    <section class="section" id="planos">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="eyebrow">Planos</span>
+          <h2>Escolha a proteção ideal</h2>
+        </div>
+        <div class="plans">
+          <article class="plan plan--featured reveal">
+            <span class="plan__tag">Mais contratado</span>
+            <h3>Essencial</h3>
+            <p class="plan__price"><small>R$</small>44,90<span>/mês</span></p>
+            <p class="plan__fee">Adesão R$ 389,90</p>
+            <a class="btn btn--primary btn--block" data-wa="Olá! Tenho interesse no plano Essencial (R$ 44,90/mês)." href="#">Contratar</a>
+          </article>
+          <article class="plan reveal">
+            <h3>Gestão <small>CNPJ</small></h3>
+            <p class="plan__price"><small>R$</small>59,90<span>/mês</span></p>
+            <p class="plan__fee">Adesão R$ 99,90</p>
+            <a class="btn btn--ghost btn--block" data-wa="Olá! Tenho interesse no plano Gestão CNPJ (R$ 59,90/mês)." href="#">Contratar</a>
+          </article>
+          <article class="plan reveal">
+            <h3>Telemetria <small>CNPJ</small></h3>
+            <p class="plan__price"><small>R$</small>69,90<span>/mês</span></p>
+            <p class="plan__fee">Adesão R$ 129,90</p>
+            <a class="btn btn--ghost btn--block" data-wa="Olá! Tenho interesse no plano Telemetria CNPJ (R$ 69,90/mês)." href="#">Contratar</a>
+          </article>
+          <article class="plan reveal">
+            <h3>Vídeo <small>Monitoramento</small></h3>
+            <p class="plan__price"><small>R$</small>139,90<span>/mês</span></p>
+            <p class="plan__fee">Adesão R$ 1.489,90</p>
+            <a class="btn btn--ghost btn--block" data-wa="Olá! Tenho interesse no plano Vídeo Monitoramento (R$ 139,90/mês)." href="#">Contratar</a>
+          </article>
+          <article class="plan reveal">
+            <h3>100% Satélite</h3>
+            <p class="plan__price"><small>R$</small>159,90<span>/mês</span></p>
+            <p class="plan__fee">Adesão R$ 9.899,00</p>
+            <a class="btn btn--ghost btn--block" data-wa="Olá! Tenho interesse no plano 100% Satélite (R$ 159,90/mês)." href="#">Contratar</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- About + testimonials -->
+    <section class="section section--alt" id="sobre">
+      <div class="container split">
+        <div class="reveal">
+          <span class="eyebrow">Sobre nós</span>
+          <h2>Especialistas em monitoramento de ativos</h2>
+          <p>Com sede em Unaí - MG, atendemos de motos e carros de passeio a caminhões e máquinas pesadas. Nosso compromisso: tranquilidade para gestores e segurança para condutores, com sistema intuitivo e atendimento de excelência.</p>
+          <p class="muted">Missão: segurança, praticidade e tranquilidade com tecnologia confiável. Visão: ser referência em Minas Gerais e crescer no Brasil.</p>
+        </div>
+        <div class="quotes reveal">
+          <blockquote><p>“Empresa muito boa, equipe qualificada e sempre disponível.”</p><cite>Marco A. Poza</cite></blockquote>
+          <blockquote><p>“Parabéns pelo trabalho, siga firme. Que Deus abençoe e faça prosperar.”</p><cite>Rafael de Paula</cite></blockquote>
+          <blockquote><p>“Perfeito, ótimo trabalho com qualidade.”</p><cite>Andeson Silva</cite></blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section" id="faq">
+      <div class="container container--narrow">
+        <div class="section__head reveal">
+          <span class="eyebrow">Perguntas frequentes</span>
+          <h2>Dúvidas comuns</h2>
+        </div>
+        <div class="faq reveal">
+          <details><summary>Como funciona o rastreamento?</summary><p>Um dispositivo GPS no veículo envia a localização continuamente para nossa central e para o seu app.</p></details>
+          <details><summary>Quais os benefícios?</summary><p>Mais segurança, recuperação rápida em caso de roubo, rotas otimizadas, menos custos e controle da produtividade da frota.</p></details>
+          <details><summary>Quanto custa?</summary><p>Há uma taxa de adesão e uma mensalidade, que variam conforme o plano. Veja os <a href="#planos">planos</a> ou peça uma cotação.</p></details>
+          <details><summary>Posso monitorar o comportamento dos motoristas?</summary><p>Sim. Detectamos aceleração e frenagem bruscas, excesso de velocidade e, com videotelemetria, distração ao volante.</p></details>
+          <details><summary>Posso rastrear sem o motorista saber?</summary><p>Em geral é necessário informar os condutores. Verifique a legislação aplicável ao seu caso.</p></details>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta">
+      <div class="container cta__inner reveal">
+        <h2>Proteja seu veículo hoje.</h2>
+        <p>Fale com a gente e receba sua cotação em minutos.</p>
+        <a class="btn btn--dark" data-wa="Olá! Quero proteger meu veículo com a Rastreato." href="#">
+          <svg class="ico"><use href="#i-wa" /></svg> Chamar no WhatsApp
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div>
+        <a href="#top" class="brand"><img src="assets/imgs/logo-wide.jpeg" alt="Rastreato" width="107" height="44" /></a>
+        <p class="muted">Rua Francisco Antunes dos Reis, 306<br />CEP 38613-346, Unaí - MG<br />CNPJ 12.837.107/0001-78</p>
+      </div>
+      <div class="footer__links">
+        <a data-wa="Olá!" href="#">WhatsApp (38) 99949-7070</a>
+        <a href="https://www.instagram.com/adsrastreamento" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://ap3.stc.srv.br/webcliente/ads" target="_blank" rel="noopener">Plataforma do cliente</a>
+      </div>
+    </div>
+    <p class="container footer__copy muted">© <span id="year"></span> Rastreato</p>
+  </footer>
+
+  <!-- Floating WhatsApp -->
+  <a class="wa-float" data-wa="Olá! Vim pelo site e gostaria de mais informações." href="#" aria-label="Conversar no WhatsApp">
+    <svg class="ico"><use href="#i-wa" /></svg>
+  </a>
+
+  <!-- Icon sprite -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="i-wa" viewBox="0 0 24 24"><path fill="currentColor" d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.9 9.9 0 0 0 4.74 1.21c5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2Zm5.8 14.03c-.25.69-1.44 1.32-1.98 1.37-.5.05-.98.23-3.3-.69-2.8-1.1-4.57-3.97-4.71-4.15-.14-.18-1.12-1.49-1.12-2.85 0-1.35.71-2.02.96-2.29.25-.28.55-.35.73-.35l.53.01c.17 0 .4-.06.62.48.23.55.78 1.9.85 2.04.07.14.11.3.02.48-.09.18-.14.3-.28.46-.14.16-.29.36-.41.48-.14.14-.28.29-.12.57.16.28.71 1.17 1.53 1.9 1.05.94 1.93 1.23 2.21 1.37.28.14.44.12.6-.07.16-.18.69-.8.87-1.08.18-.28.37-.23.62-.14.25.09 1.6.76 1.87.9.28.14.46.21.53.32.07.12.07.67-.18 1.36Z"/></symbol>
+    <symbol id="i-play" viewBox="0 0 24 24"><path fill="currentColor" d="M8 5v14l11-7z"/></symbol>
+    <symbol id="i-key" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="7.5" cy="15.5" r="4.5"/><path d="m10.7 12.3 8.8-8.8M17 6l3 3M14.5 8.5l2 2"/></g></symbol>
+    <symbol id="i-lock" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="11" width="16" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></g></symbol>
+    <symbol id="i-fence" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21Z"/><circle cx="12" cy="9.5" r="2.5"/></g></symbol>
+    <symbol id="i-route" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="19" r="2"/><circle cx="18" cy="5" r="2"/><path d="M8 19h8.5a3.5 3.5 0 0 0 0-7h-9a3.5 3.5 0 0 1 0-7H16"/></g></symbol>
+    <symbol id="i-fuel" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 21V5a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v16M3 21h12M4 10h10M14 8l3 3v6a1.5 1.5 0 0 0 3 0V9l-3-3"/></g></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 4 6v6c0 5 3.5 8 8 9 4.5-1 8-4 8-9V6l-8-3Z"/><path d="m9 12 2 2 4-4"/></g></symbol>
+    <symbol id="i-temp" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 14.8V5a2 2 0 0 0-4 0v9.8a4 4 0 1 0 4 0Z"/></g></symbol>
+    <symbol id="i-chart" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20V4M4 20h16M8 16v-4M12 16V8M16 16v-6"/></g></symbol>
+  </svg>
+
+  <script src="script.js"></script>
+</body>
+</html>
